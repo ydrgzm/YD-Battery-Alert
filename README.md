@@ -3,8 +3,8 @@
 
 A python script that runs as a background service. It alerts the user in two cases:
 
-* Battery level > 90 and charger is connected
-* Battery level < 30 and charger is not connected
+* Battery level > 90% and charger is connected
+* Battery level < 30% and charger is not connected
 
 # Setup
 We are going to set up the app to run as a `startup service`, meaning that the service will start executing as soon as the computer is switched on. Follow the steps below for this:
